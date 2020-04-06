@@ -1,5 +1,5 @@
 const tail = function(actual) {
-  return actual.slice[1];
+  return actual[actual.length-1];
 };
 
 module.exports = tail;
